@@ -24,46 +24,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "808EADA4-C84B-425C-B588-8F8013E51132"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MobileTakeHome/Service/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "getAllRecipe(urlEndpoint:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "808EADA4-C84B-425C-B588-8F8013E51132 - 2b1b5f1d8e00da0a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for MobileTakeHome.APIService.getAllRecipe&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(urlEndpoint: Swift.String) async throws -&gt; &#x3c4;_0_0"
-                  moduleName = "MobileTakeHome.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/raywilliams/Site/gitlab/ios/MobileTakeHome/MobileTakeHome/Service/APIService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54">
-               </Location>
-               <Location
-                  uuid = "808EADA4-C84B-425C-B588-8F8013E51132 - e6d32dbc98de8831"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for MobileTakeHome.APIService.getAllRecipe&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(urlEndpoint: Swift.String) async throws -&gt; &#x3c4;_0_0"
-                  moduleName = "MobileTakeHome.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/raywilliams/Site/gitlab/ios/MobileTakeHome/MobileTakeHome/Service/APIService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -79,6 +49,22 @@
             startingLineNumber = "37"
             endingLineNumber = "37"
             landmarkName = "emptyData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5E86A62-7B6D-4322-B129-6D0638B78633"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileTakeHome/Service/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getAllRecipe(urlEndpoint:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

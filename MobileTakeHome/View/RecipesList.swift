@@ -15,15 +15,20 @@ struct RecipesList: View {
     @State private var selectedRecipe: Recipe?
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(recipeListViewModel.listOfRecipe){ recipe in
-                    NavigationLink {
-                        RecipeDetail(recipe: recipe)
-                    } label : {
-                        RecipeCard(recipe: recipe)
-                    }
+                    RecipeCard(recipe: recipe)
+                        .onTapGesture {
+                            selectedRecipe = recipe
+                            showingSheet.toggle()
+                        }
                 }
+            }
+        }
+        .refreshable {
+            Task {
+                await recipeListViewModel.fetchRecipe()
             }
         }
         .sheet(isPresented: $showingSheet){
@@ -76,6 +81,6 @@ struct RecipesList: View {
     
 }
 
-#Preview {
-    RecipesList()
-}
+//#Preview {
+//    RecipesList()
+//}
